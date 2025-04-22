@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+</head>
+<body>
+   <form action="" class="form" autocomplete="off">
+        <h1 class="form-heading">Register</h1>
+        <div class="form-group">
+            <label for="display-name" class="form-label">Display Name</label>
+            <input
+            type="text"
+            id="display-name" 
+            class="form-input"
+            placeholder="Display name">
+        </div>
+        <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input
+            type="email"
+            id="email" 
+            class="form-input"
+            placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="phone-number" class="form-label">Phone Number</label>
+            <input
+            type="phone"
+            id="phone-number" 
+            class="form-input"
+            placeholder="Phone number">
+        </div>
+        <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input
+            type="password"
+            id="password" 
+            class="form-input"
+            placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="confirm-password" class="form-label">Confirm Password</label>
+            <input
+            type="password"
+            id="confirm-password" 
+            class="form-input"
+            placeholder="Confirm Password">
+        </div>
+        <div class="form-group">
+            <label class="form-label">Gender</label>
+            <input type="radio" name="gender" id="nam">
+            <label for="nam">Nam</label>
+
+            <input type="radio" name="gender" id="nu">
+            <label for="nu">Nu~</label>
+
+            <input type="radio" name="gender" id="khac">
+            <label for="khac">Khac'</label>
+        </div>
+        <div class="form-group">
+            <label for="date-of-birth" class="form-label">Date of Birth</label>
+            <input
+            type="date"
+            id="date-of-birth" 
+            placeholder="Date of Birth">
+        </div>
+        <div class="form-group">
+            <label for="address" class="form-label">Address</label>
+            <input
+            type="text"
+            id="address" 
+            class="form-input"
+            placeholder="Address">
+        </div>
+        <div class="form-group">
+            <label for="profile-picture" class="form-label">Profile Picture</label>
+            <label for="profile-picture" class="form-label">
+                <img width="150" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png"
+                 alt=""
+                 class="form-img">
+            </label>
+            <input type="file" id="profile-picture" hidden>
+            
+        </div>
+        <div class="form-group">
+            <div class="form-last">
+                <label class="form-label"> Communication Preferences</label>
+                <label>
+                    <input type="checkbox">
+                    Subscribe to Newsletter
+                </label>
+                <label>
+                    <input type="checkbox">
+                    Receive Promotional Emails
+                </label>
+                <label>
+                    <input type="checkbox">
+                    Get Product Updates 
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn">Register</button>
+        </div>
+   </form>
+</body>
+</html>
