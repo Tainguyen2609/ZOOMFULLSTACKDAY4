@@ -34,7 +34,6 @@ body {
 
 /* Menu */
 .menu {
-    padding: 10px 40px;
     background-color: #3f5cc9;
     font-size: 0px;
 }
@@ -45,7 +44,7 @@ body {
 }
 
 .menu li a {
-    padding: 10px 40px;
+    padding: 20px 40px;
     display: inline-block;
     text-decoration: none;
     color: white;
